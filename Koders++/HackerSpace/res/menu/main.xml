@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dez.hackerspace.MainActivity" >
+
+    <item
+        android:id="@+id/menuitem1"
+        android:orderInCategory="10"
+        android:title="@string/item1"
+        app:showAsAction="ifRoom"/>
+
+</menu>

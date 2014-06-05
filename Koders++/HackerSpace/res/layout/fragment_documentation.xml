@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+    
+ 	<LinearLayout 
+  	android:layout_alignParentTop="true"
+  	android:layout_centerHorizontal="true"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/java"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="34dp"
+	        android:text="@string/java" 
+	        android:textColor="@color/white"
+	        android:textSize="20sp"/>
+	
+	    <TextView
+	        android:id="@+id/cpp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cpp" 
+	        android:textColor="@color/white"
+	        android:textSize="20sp"/>
+	
+	    <TextView
+	        android:id="@+id/python"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="24dp"
+	        android:text="@string/python" 
+	        android:textColor="@color/white"
+	        android:textSize="20sp"/>
+    
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HackerSpace</string>
+    <string name="title_section1">Algorithms</string>
+    <string name="title_section2">Projects</string>
+    <string name="title_section3">Documentation</string>
+    <string name="item1">Become A Member</string>
+    <string name="java">Java     </string>
+    <string name="cpp">C++     </string>
+    <string name="python">Python</string>
+    <string name = "joinmessage">Please contact Dezerel at dezereljones@yahoo.com to join Koders++</string>
+    <string name = "project1">1. Add swipe capability</string>
+    <string name = "project2">2. Create Login account and save member profiles to a database</string>
+    <string name = "project3">3. Reduce the amount of hardcode</string>
+    <string name = "project4">4. Allow users to take image with their camera and set as member photo</string>
+    <string name = "projectadd">If you would like to have a project added to the list.  Please contact Dezerel @ dezereljones@yahoo.com</string>
+    <string name = "dezinfo">
+        \n
+        Dezerel (Dez) Jones\n
+        Major: Computer Science\n
+        Classification: Junior
+    </string>
+    
+    <string name = "kiersteninfo">
+        \n
+        Kiersten\n
+        Major: Computer Science\n
+        Classification: Junior
+    </string>
+    
+    <string name = "kennyinfo">
+        \n
+        Kendrick (Kenny Ken) Ledet\n
+        Major: Computer Science\n
+        Classification: Junior
+    </string>
+    
+    <string name = "ajiinfo">
+        \n
+        Jibaniya (Aji) Agbu\n
+        Major: Computer Science\n
+        Classification: Junior
+    </string>
+    
+    <string name = "comeauxinfo">
+        \n
+        Anthony Comeaux\n
+        Major: Computer Science\n
+        Classification: Junior
+    </string>
+   
+</resources>

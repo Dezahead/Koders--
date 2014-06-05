@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/dez"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/dez" />
+
+                <TextView
+                    android:id="@+id/dezinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dezinfo"
+                    android:textColor="@color/white" />
+                
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/kiersten"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/kiersten" />
+
+                <TextView
+                    android:id="@+id/kiersteninfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kiersteninfo"
+                    android:textColor="@color/white" />
+                
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/comeaux"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/comeaux" />
+
+                <TextView
+                    android:id="@+id/comeauxinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comeauxinfo"
+                    android:textColor="@color/white" />
+                
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/aji"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/defaultpic" />
+
+                <TextView
+                    android:id="@+id/ajiinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ajiinfo"
+                    android:textColor="@color/white" />
+                
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/kenny"
+                    android:layout_width="75sp"
+                    android:layout_height="75sp"
+                    android:src="@drawable/kenny" />
+
+                <TextView
+                    android:id="@+id/kennyinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kennyinfo"
+                    android:textColor="@color/white" />
+                
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>
